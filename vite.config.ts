@@ -15,7 +15,7 @@ export default defineConfig({
     // 代理跨域
     proxy: {
       "/api": {
-        target: "http://18.212.179.168:8080",
+        target: "http://18.222.222.222:8080",
         changeOrigin: true,
         // 将/api去掉
         rewrite: (path: string) => path.replace(/^\/api/, ""),
